@@ -12,7 +12,7 @@ To Inference, follow these steps:
 
 2. Inference with the following command:
     ```
-    python inference.py --model_path=/path/to/model --input_image=/path/to/input_image.jpg --output_image=/path/to/output_image.jpg
+    python main.py --model_path=/path/to/model --input_image=/path/to/input_image.jpg --output_image=/path/to/output_image.jpg
     ```
     Replace `/path/to/model` with the path to the trained weight file, `/path/to/input_image.jpg` with the path to the input image, and `/path/to/output_image.jpg` with the desired path for the output image.
 
